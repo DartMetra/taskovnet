@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Спіймай Захара" />
+    <meta property="og:description" content="Слизький Захар" />
+    <meta
+      property="og:url"
+      content="https://taskov-net.onrender.com/zakhar.html"
+    />
+    <meta property="og:image" content="./photo_5222091710203543992_x.jpg" />
     <link
       rel="icon"
       href="./photo_5222091710203543992_x.jpg"
@@ -134,10 +141,10 @@
   </body>
 
   <script>
-    const btn = document.querySelectorAll('.dodge-btn');
+    const btn = document.querySelectorAll(".dodge-btn");
     console.log(btn);
-    btn[0].addEventListener('mouseover', () => {
-      console.log('of');
+    btn[0].addEventListener("mouseover", () => {
+      console.log("of");
 
       const x = Math.floor(Math.random() * (100 - 1 + 1) + 1);
       const y = Math.floor(Math.random() * (100 - 1 + 1) + 1);
@@ -146,8 +153,8 @@
       btn[0].style.top = `${x}%`;
       btn[0].style.bottom = `${x}%`;
     });
-    btn[0].addEventListener('click', () => {
-      alert('FFF');
+    btn[0].addEventListener("click", () => {
+      alert("FFF");
     });
 
     // btn.forEach((element) => {
