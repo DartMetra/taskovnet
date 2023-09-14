@@ -14,6 +14,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тасков нет</title>
+    <style>
+      #animated-text {
+        font-size: 10px;
+        animation: textAnimation 1s linear infinite;
+      }
+
+      @keyframes textAnimation {
+        0%,
+        100% {
+          font-size: 10px;
+        }
+        50% {
+          font-size: 26px;
+        }
+      }
+    </style>
   </head>
   <body style="background-color: #5c4f00">
     <img
@@ -41,7 +57,7 @@
       "
       id="cry"
     >
-      Ярослав дай тасков!
+      <a id="animated-text"> Ярослав дай тасков! </a>
     </div>
 
     <script>
